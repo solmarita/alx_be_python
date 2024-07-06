@@ -9,6 +9,8 @@ def perform_operation(num1, num2, operation):
             return "Can not divide by Zero!"
         elif:
             return num1 / num2
+        else:
+
         
 
     if operation == "add":
