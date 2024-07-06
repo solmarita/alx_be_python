@@ -1,4 +1,4 @@
-def perform_operation(num1: float, num2: float, operation: str) -> float:
+def perform_operation(num1, num2, operation):
     """Does basic arithmetic: Add, Subtract, Multiply, and Divide"""
 
     if operation not in ("add", "subtract", "multiply", "divide"):
