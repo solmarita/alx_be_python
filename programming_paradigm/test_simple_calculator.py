@@ -7,6 +7,7 @@ class TestSimpleCalculator(unittest.TestCase):
     self.assertEqual(self.calc.subtract
     self.assertEqual(self.calc.multiply
     self.assertEqual(self.calc.divide
+    test_multiplication(self)
     SimpleCalculator()
     """
 
