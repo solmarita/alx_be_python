@@ -3,7 +3,10 @@ from simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
     """
-    self.assertEqual(self.calc.add"]
+    self.assertEqual(self.calc.add
+    self.assertEqual(self.calc.subtract
+    self.assertEqual(self.calc.multiply
+    self.assertEqual(self.calc.divide
     SimpleCalculator()
     """
 
