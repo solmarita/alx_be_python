@@ -1,9 +1,9 @@
 import unittest
 from simple_calculator import SimpleCalculator
 
-calc = SimpleCalculator()
-
 class TestSimpleCalculator(unittest.TestCase):
+    """self.assertEqual(self.calc.add"""
+
     def test_addition(self):
         result = SimpleCalculator.add(5, 3)
         self.assertEqual(result, 8)
